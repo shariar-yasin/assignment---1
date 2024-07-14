@@ -1,0 +1,262 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+}
+nav > h5{
+    font-size: 28px;
+font-weight: 800px;
+}
+nav > h6 > button{
+    font-size: 20px;
+font-weight: 600px;
+width: 220px;
+height: 60px;
+padding: 17px 24px 17px 24px;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+}
+.heading{
+    margin-bottom: 80px;
+}
+.banner img {
+    width: 170px;
+    height: 220px;
+}
+
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-title{
+    font-size: 48px;
+font-weight: 800;
+max-width: 998px;
+text-align: center;
+}
+
+.banner-description{
+    font-size: 16px;
+font-weight: 400px;
+max-width: 750px;
+text-align: center;
+}
+
+.banner-button{
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    width: 150px;
+height: 40px;
+padding: 21px 24px 21px 24px;
+font-size: 12px;
+font-weight: 600px;
+color: white;
+margin-top: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+   padding-bottom: 50px;
+}  
+
+.web-container{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.web{
+
+    
+    
+    text-align: center;
+width: 946px;
+
+/* padding: 50px 40px 0px 40px; */
+/* margin-bottom: 50px; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 500px;
+align-items: center;
+
+
+
+}
+
+
+.top{
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.top1{
+   
+    /* max-width: 477px; */
+
+    /* padding: 48px; */
+}
+.coding{
+    font-size: 24px;
+font-weight: 700px;
+}
+.coding1{
+    font-size: 16px;
+font-weight: 400;
+}
+.coding2{
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 20px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width: 946px;
+}
+
+.second-part{
+    
+    height: 320px;
+}
+.tr{
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.r{
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.second{
+    
+    
+    
+}
+
+.footer{
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.secon-part-description{}
+.fth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+}
+.html{
+    max-width: 384px;
+    height: 300px;
+   
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);}
+    
+.css{
+    max-width: 384px;
+    height: 300px;
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+    
+}
+    
+.js{
+    max-width: 384px;
+    height: 300px;
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+
+.inspiration{
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.inspiration-carrer {
+    
+        padding: 5px 5px px 10px;
+        
+        border: 2px solid rgba(13, 19, 33, 0.2);
+        padding: 5px;
+        
+    
+}
+
+.footer-support{
+   
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+  
+ 
+    
+
+/* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
+}
+.footer-section{
+    text-align: center;
+    background: url(/assets/handshake.jpg);
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    align-content: center;
+    
+}
+
+
+input[type="text"] {
+    width: 300px;  
+    height: 30px;  
+    margin-right: 10px;
+}
+input[type="submit"] {
+    width: 100px;  
+    height: 30px;  
+}
+
+    
